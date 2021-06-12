@@ -105,18 +105,19 @@ h3 {
 }
 
 footer{
-    grid-column: 2;
-    margin: auto;
     padding-bottom: 20px;
     height: 19px;
     font-weight: 700;
     color: #A9A9A9;
+    display: flex;
+    justify-content: center;
     
 }
 footer a{
     list-style: none;
     text-decoration: none;
     color: #A9A9A9;
+    margin-left: 4px;
 }
 
 footer a:hover{
